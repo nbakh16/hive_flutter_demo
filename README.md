@@ -1,16 +1,16 @@
-# hive_flutter_demo
+# Hive local database, CRUD operations.
 
-A new Flutter project.
+### Documentation: https://docs.hivedb.dev
 
-## Getting Started
+### Dependencies: [hive](https://pub.dev/packages/hive), [hive_flutter](https://pub.dev/packages/hive_flutter), [hive_generator](https://pub.dev/packages/hive_generator), [build_runner](https://pub.dev/packages/build_runner)
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### Steps to implement Hive:
+1. Add dependencies
+     hive, hive_flutter, hive_generator, build_runner,
+2. Create class (Generate Adapter)
+3. Auto generate class.g
+     dart run build_runner build
+4. initFlutter
+5. Register adapter
+6. Open Box and create Box file
+7. CRUD operations
